@@ -37,7 +37,7 @@ struct CountryDetailView: View {
 
 struct CountryView_Previews: PreviewProvider {
     static var previews: some View {
-        //Using mocked data for the preview
+        //Using mocked data for the preview.
         CountryDetailView(country: MockedPreview.shared.mockedCountry())
     }
 }

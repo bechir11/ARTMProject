@@ -59,6 +59,7 @@ struct CountryListView: View {
     }
     
     fileprivate func alphabeticScrollingBar(proxy: ScrollViewProxy) -> some View {
+        //this is an alphabetic scrolling bar to make the navigation of the list easier
         HStack {
             Spacer()
             VStack {

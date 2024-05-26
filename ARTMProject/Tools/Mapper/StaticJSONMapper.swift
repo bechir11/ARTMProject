@@ -9,6 +9,7 @@ import Foundation
 
 struct StaticJSONMapper {
     
+    //This method will be used for the unit tests
     static func decode<T: Decodable>(file: String, type: T.Type) throws -> [T] {
         
         guard !file.isEmpty,

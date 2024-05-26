@@ -101,6 +101,7 @@
 			isa = PBXGroup;
 			children = (
 				B12FED662C0130BC004E0150 /* JSON */,
+				B1A9660D2C0056B80000E78B /* Assets.xcassets */,
 			);
 			path = Ressources;
 			sourceTree = "<group>";
@@ -159,7 +160,6 @@
 				B12FED652C0130B6004E0150 /* Ressources */,
 				B1A966562C0070CB0000E78B /* Tools */,
 				B1A966092C0056B70000E78B /* ARTMProjectApp.swift */,
-				B1A9660D2C0056B80000E78B /* Assets.xcassets */,
 				B1A9660F2C0056B80000E78B /* Preview Content */,
 			);
 			path = ARTMProject;

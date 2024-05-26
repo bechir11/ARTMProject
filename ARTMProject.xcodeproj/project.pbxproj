@@ -154,6 +154,7 @@
 			children = (
 				B1A966332C0056CC0000E78B /* APIClient */,
 				B1A966422C005AE50000E78B /* Models */,
+				B1A966532C005F250000E78B /* ViewModels */,
 				B1A966502C005ECA0000E78B /* Views */,
 				B12FED652C0130B6004E0150 /* Ressources */,
 				B1A966562C0070CB0000E78B /* Tools */,
@@ -219,7 +220,6 @@
 		B1A966502C005ECA0000E78B /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				B1A966532C005F250000E78B /* ViewModels */,
 				B1A9660B2C0056B70000E78B /* CountryListView.swift */,
 				B1A966542C006A9E0000E78B /* CountryDetailView.swift */,
 				B12FED702C028820004E0150 /* SplashView.swift */,

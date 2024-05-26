@@ -38,7 +38,6 @@ final class NetworkingManagerTests: XCTestCase {
         }
         
         MockURLSessionProtocol.loadingHandler = {
-            
             // Mock URL response
             let response = HTTPURLResponse(url: self.url,
                                            statusCode: 200,
@@ -52,7 +51,8 @@ final class NetworkingManagerTests: XCTestCase {
         XCTAssertNotNil(result, "The result should not be nil")
         
         //decoding the static json into an object
-        let staticJson = try StaticJSONMapper.decode(file: "CountriesStaticData", type: Country.self)
+        let decoder = JSONDecoder()
+        let staticJson = try decoder.decode([Country].self, from: data)
         
         //Making test using assert equal
         XCTAssertEqual(result, staticJson, "The returned response should be decoded properly")

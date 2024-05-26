@@ -48,6 +48,7 @@ struct CountryListView: View {
                                 Text(country.flag)
                                 Text(country.name.common)
                             }
+                            //this is a way to hide the list cell accessory view
                              NavigationLink(destination: CountryDetailView(country: country)) { EmptyView() }.opacity(0.0)
                         }
                     }

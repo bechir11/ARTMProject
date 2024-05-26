@@ -16,9 +16,9 @@ struct CountryDetailView: View {
             detailRow(title: "Name", content: country.name.common)
             detailRow(title: "Flag", content: country.flag)
             detailRow(title: "continent", content: country.continents.joined(separator: ", ") )
-            detailRow(title: "nombre de la population", content: country.population.formatted())
+            detailRow(title: "number of population", content: country.population.formatted())
             if let capitals = country.capital {
-                detailRow(title: "capitale", content: capitals.joined(separator: ", "))
+                detailRow(title: "capital", content: capitals.joined(separator: ", "))
             }
         }
         .navigationTitle(country.name.common)

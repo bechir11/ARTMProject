@@ -1,0 +1,1 @@
+This is a SwiftUI project for an iOS app that displays a list of countries fetched from a RESTful API. Users can tap on a country name in the list to view detailed information about the selected country.
